@@ -17,7 +17,7 @@ export default {
 @import "../../style/mixin";
 @import "../../style/variable";
 
-// @include font-face("Lato-Regular");
+@include font-face("Icon");
 
 :root{
     --color1: $diagramColor1;
@@ -27,6 +27,10 @@ html, body, #app, .app-container {
     width: 100%;
     height: 100%;
     overflow: hidden;
+}
+
+html {
+    font-size: 1px;
 }
 
 body {
