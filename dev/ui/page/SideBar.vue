@@ -12,6 +12,6 @@ export default {
 
 .side-bar {
     width: $sideBarWidth;
-    background-color: blue;
+    background-color: $basicColor1;
 }
 </style>

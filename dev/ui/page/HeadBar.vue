@@ -15,6 +15,7 @@ export default {
 .head-bar {
     width: 100%;
     height: $headBarHeight;
-    background-color: gray;
+    background-color: $basicColor4;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
 }
 </style>
