@@ -1,17 +1,14 @@
 <template lang="html">
     <div class="home">
-        <div class="stuff preload" data-source="../image/stuff.svg"></div>
-        <p>123afgasdf</p>
+        <img class="stuff" src="../../image/stuff.svg" alt="">
+        <p>hello world</p>
     </div>
 </template>
 
 <script>
-import PictureLoader from 'joshua-picture-loader';
 
 export default {
-    mounted() {
-        new PictureLoader().load();
-    },
+
 };
 </script>
 
@@ -19,10 +16,6 @@ export default {
 .home {
     .stuff {
         width: 200px;
-    }
-
-    p {
-        font-size: 15px;
     }
 }
 </style>

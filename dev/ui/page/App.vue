@@ -23,13 +23,19 @@ export default {
     --color1: $diagramColor1;
 }
 
+html, body, #app, .app-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family:"Microsoft YaHei";
 }
 
 @media (max-width: 1000px) {
     :root{
-        --color1: green;
+        // --color1: green;
     }
 }
 
